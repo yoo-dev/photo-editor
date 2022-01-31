@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.stage {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+.stage #image {
+  width: 100%;
+}
+
+.effects {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: flex-start;
+}
+.effect {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4px 0;
+}
+.effect label {
+  width: 96px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Editor</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="stage">
+        <img src="assets/images/mountain.jpg" alt="image" id="image" />
+      </div>
+
+      <div class="effects">
+        <div class="effect">
+          <label for="blur">Blur</label>
+          <input type="range" id="blur" value="0" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="brightness">Brightness</label>
+          <input type="range" id="brightness" value="100" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="contrast">Contrast</label>
+          <input type="range" id="contrast" value="100" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="grayscale">Grayscale</label>
+          <input type="range" id="grayscale" value="0" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="hue-rotate">Hue-rotate</label>
+          <input type="range" id="hue-rotate" value="0" min="0" max="360" />
+        </div>
+        <div class="effect">
+          <label for="invert">Invert</label>
+          <input type="range" id="invert" value="0" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="opacity">Opacity</label>
+          <input type="range" id="opacity" value="100" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="saturate">Saturate</label>
+          <input type="range" id="saturate" value="100" min="0" max="100" />
+        </div>
+        <div class="effect">
+          <label for="sepia">Sepia</label>
+          <input type="range" id="sepia" value="0" min="0" max="100" />
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
